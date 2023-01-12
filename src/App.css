@@ -1,0 +1,72 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+body{
+  text-align : center;
+  background-image:url(images/airportfond.jpeg);
+}
+
+#title{
+  border : 2px solid black;
+  border-radius: 4px; 
+  background-color: brown;
+  color:white;
+}
+
+#navbutton{
+  padding-top : 20px;
+  border : 2px solid white;
+  background-color:rosybrown;
+  border-radius: 9px; 
+font-size : 25px;
+  color:white;
+  text-decoration:none;
+}
+
+#geste{
+  border : 2px solid transparent;
+  background-color:whithesmoke;
+  margin-left : 180px;
+  margin-right: 180px;
+  background-color: rosybrown;
+}
+
+.photogeste{
+  height:200px;
+}
